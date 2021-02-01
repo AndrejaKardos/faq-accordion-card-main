@@ -66,6 +66,11 @@ body {
     color: hsl(237, 12%, 33%);
 }
 
+.question:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
