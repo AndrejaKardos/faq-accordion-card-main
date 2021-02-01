@@ -1,12 +1,11 @@
 body {
+    font-family: 'Kumbh Sans';
     display: flex;
     justify-content: center;
     height: 99vh;
     width: 100%;
     overflow: hidden;
     margin: 0;
-    border: 5px solid blue;
-    font-family: 'Kumbh Sans';
 }
 
 .container {
