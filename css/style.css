@@ -71,6 +71,11 @@ body {
     cursor: pointer;
 }
 
+.answer {
+    font-size: 12px;
+    color:hsl(240, 6%, 50%);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
