@@ -53,11 +53,6 @@ body {
     z-index: 1001;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
