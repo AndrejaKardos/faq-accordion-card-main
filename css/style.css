@@ -76,6 +76,10 @@ body {
     color:hsl(240, 6%, 50%);
 }
 
+.divider {
+    border-top: 1px solid grey;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
