@@ -14,7 +14,7 @@ body {
     width: 1440px;
     height: 80%;
     margin: 0;
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
 .attribution { 
