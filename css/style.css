@@ -45,6 +45,14 @@ body {
     height: auto;
 }
 
+.card__image--box {
+    position: absolute;
+    width: 10%;
+    top: 44.5%;
+    left: 19.5%;
+    z-index: 1001;
+}
+
 img {
     width: 100%;
     height: auto;
