@@ -6,6 +6,7 @@ body {
     width: 100%;
     overflow: hidden;
     margin: 0;
+    font-size: 14px;
 }
 
 .container {
@@ -58,6 +59,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 50px;
+}
+
+.question {
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
 }
 
 .attribution { 
