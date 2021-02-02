@@ -86,10 +86,9 @@ body {
     margin-bottom: 20px;
 }
 
-.fas {
-    width: 30px;
-    height: 30px;
-    color: hsl(14, 88%, 65%);
+.faq__image--arrow {
+    width: 10px;
+    height: 7px;
 }
 
 .attribution { 
