@@ -49,9 +49,9 @@ body {
 
 .card__image--box {
     position: absolute;
-    width: 10%;
-    top: 44.5%;
-    left: 19.5%;
+    width: 13%;
+    top: 420px;
+    left: 140px;
     z-index: 1001;
 }
 
