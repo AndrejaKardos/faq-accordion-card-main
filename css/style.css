@@ -93,6 +93,9 @@ body {
 .answer {
     font-size: 12px;
     color:hsl(240, 6%, 50%);
+}
+
+.answer--hide {
     display: none;
 }
 
