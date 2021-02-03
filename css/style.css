@@ -36,7 +36,6 @@ body {
     justify-content: center;
     flex: 1 0 50%;
     height: 100%;
-    border: 1px solid red;
 }
 
 .desktophiddenart {
@@ -48,12 +47,11 @@ body {
     overflow: hidden;
 }
 
-.card__image--box {
+.card__images--box {
     position: absolute;
-    margin-top: 93px;
-    left: -75px;
-    -webkit-filter: drop-shadow(-5px 5px 40px hsl(260, 65%, 42%));
-    filter:         drop-shadow(-5px 5px 40px hsl(260, 65%, 42%)); 
+    margin-top: 90px;
+    left: -130px;
+    
 }
 
 .card__images--office {
@@ -65,16 +63,6 @@ body {
     position: absolute;
     margin-top: -150px;
     left: -575px;
-}
-
-.card__image--pattern {
-    position: absolute;
-    bottom: 9%;
-    right: 54%;
-    z-index: 999;
-    width: 50%;
-    height: 100%;
-    z-index: 1000;
 }
 
 .card__faq {
