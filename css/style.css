@@ -89,6 +89,7 @@ body {
     font-weight: 400;
     color: hsl(237, 12%, 33%);
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .question:hover {
