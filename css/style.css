@@ -108,6 +108,7 @@ body {
 .faq__image--arrow {
     display: flex;
     justify-content: flex-end;
+    justify-self: flex-end;
     width: 10px;
     height: 7px;
 }
