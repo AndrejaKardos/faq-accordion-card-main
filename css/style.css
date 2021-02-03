@@ -29,10 +29,23 @@ body {
     border-radius: 25px;
 }
 
-.backgroundimages {
+.desktopart {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 50%;
     height: 100%;
     border: 1px solid red;
+}
+
+.desktophiddenart {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
 }
 
 .card__image--box {
@@ -45,24 +58,13 @@ body {
 
 .card__images--office {
     position: absolute;
-    background-image: url('/images/illustration-woman-online-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: 470px;
-    margin-left: -550px;
-    margin-top: 90px;
-    width: 550px;
-    height: 450px;
+    left: -80px;
 }
 
 .card__images--pattern {
     position: absolute;
-    background-image: url('/images/bg-pattern-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: 900px;
-    width: 1000px;
-    height: 1000px;
-    margin-left: -520px;
-    margin-bottom: -20px;
+    margin-top: -150px;
+    left: -575px;
 }
 
 .card__image--pattern {
