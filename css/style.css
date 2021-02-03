@@ -7,7 +7,6 @@ body {
     overflow: hidden;
     margin: 0;
     font-size: 14px;
-    font-weight: 700;
 }
 
 .container {
@@ -31,23 +30,24 @@ body {
     overflow: hidden;
 }
 
-.card__images {
+.card__images--office {
     background-image: url('/images/illustration-woman-online-desktop.svg');
     background-repeat: no-repeat;
     background-size: 470px;
-    margin-left: -83px;
+    margin-left: -550px;
     margin-top: 90px;
     width: 550px;
     height: 450px;
-    background-clip: padding-box;
 }
 
-.card__image--office {
-    position: relative;
-    margin-left: -85px;
-    z-index: 1000;
-    width: 50%;
-    height: auto;
+.card__images--pattern {
+    background-image: url('/images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    width: 1000px;
+    height: 1000px;
+    margin-left: -520px;
+    margin-bottom: -20px;
 }
 
 .card__image--pattern {
