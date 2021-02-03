@@ -74,6 +74,11 @@ body {
     width: 40%;
 }
 
+.card__faq--header {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
 .question {
     display: flex;
     flex-direction: row;
