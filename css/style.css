@@ -9,17 +9,7 @@ body {
     font-size: 14px;
 }
 
-@media screen and (min-width: 376px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        align-items: center;
-        width: 1440px;
-        height: 80%;
-        background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    }
-}
+/* DESKTOP */
 
 @media screen and (max-width: 375px) {
     .container {
@@ -31,21 +21,7 @@ body {
         height: 90%;
         background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     }
-}
 
-@media screen and (min-width: 376px) {
-    .card {
-        position: relative;
-        display: flex;
-        background-color: white;
-        align-items: center;
-        height: 70%;
-        width: 63%;
-        border-radius: 25px;
-    }
-}
-
-@media screen and (max-width: 375px) {
     .card {
         position: relative;
         display: flex;
@@ -57,32 +33,7 @@ body {
         width: 85%;
         border-radius: 25px;
     }
-}
 
-@media screen and (min-width: 376px) {
-    .desktopart {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex: 1 0 50%;
-        height: 100%;
-    }
-
-    .mobileart {
-        display: none;
-    }
-
-    .card__images--box {
-        position: absolute;
-        margin-top: 90px;
-        left: -130px;
-        -webkit-filter: drop-shadow(-5px 5px 40px hsl(260, 71%, 34%));
-        filter: drop-shadow(-5px 10px 40px hsl(260, 71%, 34%)); 
-    }
-}
-
-@media screen and (max-width: 375px) {
     .desktopart {
         display: none;
     }
@@ -108,6 +59,51 @@ body {
 
     .card__images--pattern {
         border: 1px solid red;
+    }
+}
+
+/* MOBILE */
+
+@media screen and (min-width: 376px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        width: 1440px;
+        height: 80%;
+        background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    }
+
+    .card {
+        position: relative;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        height: 70%;
+        width: 63%;
+        border-radius: 25px;
+    }
+
+    .desktopart {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 0 50%;
+        height: 100%;
+    }
+
+    .mobileart {
+        display: none;
+    }
+
+    .card__images--box {
+        position: absolute;
+        margin-top: 90px;
+        left: -130px;
+        -webkit-filter: drop-shadow(-5px 5px 40px hsl(260, 71%, 34%));
+        filter: drop-shadow(-5px 10px 40px hsl(260, 71%, 34%)); 
     }
 }
 
