@@ -45,6 +45,19 @@ body {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        height: 70%;
+        width: 63%;
+        border-radius: 25px;
+    }
+}
+
 .desktopart {
     position: relative;
     display: flex;
