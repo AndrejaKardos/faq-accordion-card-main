@@ -58,14 +58,14 @@ body {
     .card__images--office {
         position: absolute;
         top: -110px;
-        right: 40px;
+        right: 43px;
     }
 
     .card__images--pattern {
         position: absolute;
         width: 100%;
         margin-top: -50px;
-        right: -25px;
+        right: -37px;
     }
 
     /* FAQ SECTION */
