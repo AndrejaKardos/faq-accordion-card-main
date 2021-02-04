@@ -33,14 +33,16 @@ body {
     }
 }
 
-.card {
-    position: relative;
-    display: flex;
-    background-color: white;
-    align-items: center;
-    height: 70%;
-    width: 63%;
-    border-radius: 25px;
+@media screen and (min-width: 376px) {
+    .card {
+        position: relative;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        height: 70%;
+        width: 63%;
+        border-radius: 25px;
+    }
 }
 
 .desktopart {
