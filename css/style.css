@@ -9,14 +9,28 @@ body {
     font-size: 14px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    width: 1440px;
-    height: 80%;
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+@media screen and (min-width: 376px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        width: 1440px;
+        height: 80%;
+        background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        width: 375px;
+        height: 80%;
+        background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    }
 }
 
 .card {
@@ -52,7 +66,7 @@ body {
     margin-top: 90px;
     left: -130px;
     -webkit-filter: drop-shadow(-5px 5px 40px hsl(260, 71%, 34%));
-    filter:         drop-shadow(-5px 10px 40px hsl(260, 71%, 34%)); 
+    filter: drop-shadow(-5px 10px 40px hsl(260, 71%, 34%)); 
 }
 
 .card__images--office {
