@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 99vh;
+    height: 100vh;
     width: 100%;
     margin: 0;
     font-size: 14px;
@@ -38,25 +38,21 @@ body {
         display: none;
     }
 
-    /* .mobileart {
+    .mobileart {
         position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         flex: 1 0 50%;
-        height: 200px;
-        width: 300px;
-        border: 1px solid pink;
-    } */
-
-    /* .mobilehiddenart {
+    }
+    
+    .mobilehiddenart {
         display: flex;
         position: absolute;
         top: 50px;
         height: 200px;
         width: 300px;
-        border: 1px solid orange;
-    } */
+    }
 
     /* .card__images--office {
         position: absolute;
