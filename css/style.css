@@ -2,23 +2,22 @@ body {
     font-family: 'Kumbh Sans', Arial;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 99vh;
     width: 100%;
-    overflow: hidden;
     margin: 0;
     font-size: 14px;
 }
 
-/* DESKTOP */
+/* MOBILE */
 
 @media screen and (max-width: 375px) {
     .container {
         display: flex;
         justify-content: center;
-        align-self: center;
         align-items: center;
-        width: 375px;
-        height: 90%;
+        height: 100%;
+        width: 100%;
         background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     }
 
@@ -27,48 +26,57 @@ body {
         display: flex;
         flex-direction: column;
         background-color: white;
-        align-items: center;
-        margin-top: 50px;
-        height: 70%;
-        width: 85%;
+        margin-bottom: 20px;
+        height: 60%;
+        width: 80%;
         border-radius: 25px;
     }
 
-    .desktopart {
-        display: none;
-    }
-
-    .mobileart {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        top: -200px;
-        flex: 1 0 50%;
-        height: 100%;
-    }
-
+    .desktopart,
+    .desktophiddenart,
     .card__images--box {
         display: none;
     }
 
-    .card__images--office {
+    /* .mobileart {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 0 50%;
+        height: 200px;
+        width: 300px;
+        border: 1px solid pink;
+    } */
+
+    /* .mobilehiddenart {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        height: 200px;
+        width: 300px;
+        border: 1px solid orange;
+    } */
+
+    /* .card__images--office {
         position: absolute;
         border: 1px solid green;
-    }
+        top: -110px;
+    } */
 
-    .card__images--pattern {
+    /* .card__images--pattern {
+        position: absolute;
+        margin-top: -110px;
         border: 1px solid red;
-    }
+    } */
 }
 
-/* MOBILE */
+/* DESKTOP */
 
 @media screen and (min-width: 376px) {
     .container {
         display: flex;
         justify-content: center;
-        align-self: center;
         align-items: center;
         width: 1440px;
         height: 80%;
@@ -94,6 +102,15 @@ body {
         height: 100%;
     }
 
+    .desktophiddenart {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        overflow: hidden;
+    }
+
     .mobileart {
         display: none;
     }
@@ -105,26 +122,17 @@ body {
         -webkit-filter: drop-shadow(-5px 5px 40px hsl(260, 71%, 34%));
         filter: drop-shadow(-5px 10px 40px hsl(260, 71%, 34%)); 
     }
-}
 
-.desktophiddenart {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    overflow: hidden;
-}
-
-.card__images--office {
-    position: absolute;
-    left: -80px;
-}
-
-.card__images--pattern {
-    position: absolute;
-    margin-top: -150px;
-    left: -575px;
+    .card__images--office {
+        position: absolute;
+        left: -80px;
+    }
+    
+    .card__images--pattern {
+        position: absolute;
+        margin-top: -150px;
+        left: -575px;
+    }
 }
 
 .card__faq {
