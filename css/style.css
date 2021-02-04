@@ -28,7 +28,7 @@ body {
         align-self: center;
         align-items: center;
         width: 375px;
-        height: 80%;
+        height: 90%;
         background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     }
 }
@@ -52,7 +52,8 @@ body {
         flex-direction: column;
         background-color: white;
         align-items: center;
-        height: 80%;
+        margin-top: 50px;
+        height: 70%;
         width: 85%;
         border-radius: 25px;
     }
@@ -99,6 +100,15 @@ body {
     .card__images--box {
         display: none;
     }
+
+    .card__images--office {
+        position: absolute;
+        border: 1px solid green;
+    }
+
+    .card__images--pattern {
+        border: 1px solid red;
+    }
 }
 
 .desktophiddenart {
@@ -109,8 +119,6 @@ body {
     height: 100%;
     overflow: hidden;
 }
-
-
 
 .card__images--office {
     position: absolute;
