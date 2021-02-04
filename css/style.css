@@ -52,8 +52,8 @@ body {
         flex-direction: column;
         background-color: white;
         align-items: center;
-        height: 70%;
-        width: 63%;
+        height: 80%;
+        width: 85%;
         border-radius: 25px;
     }
 }
@@ -91,6 +91,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        top: -200px;
         flex: 1 0 50%;
         height: 100%;
     }
