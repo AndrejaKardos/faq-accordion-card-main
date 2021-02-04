@@ -67,6 +67,11 @@ body {
         flex: 1 0 50%;
         height: 100%;
     }
+
+    .mobileart {
+        width: 0px;
+        height: 0px;
+    }
 }
 
 .desktophiddenart {
