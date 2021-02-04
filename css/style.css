@@ -69,8 +69,34 @@ body {
     }
 
     .mobileart {
-        width: 0px;
-        height: 0px;
+        display: none;
+    }
+
+    .card__images--box {
+        position: absolute;
+        margin-top: 90px;
+        left: -130px;
+        -webkit-filter: drop-shadow(-5px 5px 40px hsl(260, 71%, 34%));
+        filter: drop-shadow(-5px 10px 40px hsl(260, 71%, 34%)); 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .desktopart {
+        display: none;
+    }
+
+    .mobileart {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 0 50%;
+        height: 100%;
+    }
+
+    .card__images--box {
+        display: none;
     }
 }
 
@@ -83,13 +109,7 @@ body {
     overflow: hidden;
 }
 
-.card__images--box {
-    position: absolute;
-    margin-top: 90px;
-    left: -130px;
-    -webkit-filter: drop-shadow(-5px 5px 40px hsl(260, 71%, 34%));
-    filter: drop-shadow(-5px 10px 40px hsl(260, 71%, 34%)); 
-}
+
 
 .card__images--office {
     position: absolute;
