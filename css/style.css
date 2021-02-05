@@ -83,6 +83,7 @@ body {
         align-self: flex-start;
         align-self: center;
         margin-top: 105px;
+        margin-bottom: 18px;
     }
     
     .card__faq--question {
