@@ -28,7 +28,7 @@ body {
         background-color: white;
         margin-bottom: -70px;
         height: 63%;
-        width: 85%;
+        width: 88%;
         border-radius: 25px;
     }
 
@@ -73,8 +73,8 @@ body {
     .card__faq {
         display: flex;
         flex-direction: column;
-        margin: 15px;
-        width: 80%;
+        width: 90%;
+        margin: 10px;
     }
     
     .card__faq--header {
@@ -85,15 +85,19 @@ body {
     
     .card__faq--question {
         display: flex; 
-        align-self: flex-end;
         flex-direction: row;
+        justify-content: center;
+        border: 1px solid green;
+        width: 100%;
     }
     
     .question {
+        display: flex;
         font-weight: 400;
         color: hsl(237, 12%, 33%);
         width: 100%;
         margin-bottom: 15px;
+        justify-content: flex-start;
     }
     
     .question:hover {
@@ -113,7 +117,7 @@ body {
     
     .answer {
         font-size: 12px;
-        color:hsl(240, 6%, 50%);
+        color: hsl(240, 6%, 50%);
         margin-top: 15px;
         margin-bottom: 15px;
         font-weight: 400;
